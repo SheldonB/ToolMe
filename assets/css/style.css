@@ -4,6 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/* Navbar style */
+.navbar-custom {
+    background-color: #4183D7;
+    color: #fff;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
 /* Toggle Styles */
 
 #wrapper {
@@ -26,7 +34,7 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #000;
+    background: #4183D7;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -67,7 +75,7 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #FFF;
 }
 
 .sidebar-nav li a:hover {
@@ -88,7 +96,7 @@
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: #FFF;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -96,7 +104,7 @@
     background: none;
 }
 
-@media(min-width:768px) {
+@media(min-width:1px) {
     #wrapper {
         padding-left: 250px;
     }
