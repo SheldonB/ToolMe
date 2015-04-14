@@ -2,24 +2,23 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>ToolMe - Your Workflow Manager</title>
 
-    <title>ToolMe</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -27,62 +26,50 @@
 </head>
 
 <body>
-    <!-- NavBar -->
-    <nav class="navbar navbar-custom">
-        <div class="container-fluid">
-            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-            <a class="navbar-brand">ToolMe</a>
-        </div>
-    </nav>
-
-    <div id="wrapper" class="toggled">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        It's freaking ToolMe!!!
-                    </a>
-                </li>
-                <li>
-                    <a href="#">This</a>
-                </li>
-                <li>
-                    <a href="#">is</a>
-                </li>
-                <li>
-                    <a href="#">a</a>
-                </li>
-                <li>
-                    <a href="#">test</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
+  <!-- NavBar -->
+  <nav class="navbar navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand">ToolMe</a>
     </div>
-    <!-- /#wrapper -->
+  </nav>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
+  <div id="wrapper" class="toggled">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="#">Menu</a>
+        </li>
+        <li>
+          <a href="#">Add a Workflow</a>
+        </li>
+        <li>
+          <a href="#">Settings</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /#wrapper -->
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
     $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
     });
-    </script>
+  </script>
 
 </body>
 
