@@ -1,0 +1,21 @@
+{
+  "name": "ToolMe",
+  "version": "0.0.0",
+  "description": "A web based workflow manager",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://SheldonB@github.com/SheldonB/ToolMe.git"
+  },
+  "author": "Sheldon Burks",
+  "license": "GNU General Publi License V2",
+  "bugs": {
+    "url": "https://github.com/SheldonB/ToolMe/issues"
+  },
+  "homepage": "https://github.com/SheldonB/ToolMe"
+}
