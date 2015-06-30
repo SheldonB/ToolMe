@@ -6,6 +6,33 @@
     margin-bottom: 0;
 }
 
+.navbar-header {
+    float: none;
+    padding: 15px;
+    text-align: center;
+    width: 100%
+}
+
+.navbar-brand {
+    float: none;
+}
+
+#logo {
+    font-family: 'Pacifico', cursive;
+    color: #FFF;
+    font-size: 2.5em;
+}
+
+span.glyphicon-menu-hamburger {
+    padding-top: 6px;
+    float: left;
+    font-size: 2.9em;
+}
+
+span.glyphicon-menu-hamburger.hover {
+    color: #E0E0E0;
+}
+
 /* Toggle Styles */
 
 #wrapper {
